@@ -1,0 +1,150 @@
+header{
+    border-radius: 10px;
+    background: rgb(190, 89, 109);
+    margin-bottom: 50px;
+}
+
+header p{
+    color: rgb(32, 14, 14);
+    font-size: 18px;
+    padding: 10px;
+    border-top: 2px solid black;
+
+}
+
+
+header a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+
+.navbar{
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: orange;
+
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    padding-bottom: 0px;
+}
+
+body{
+    background-color: wheat;
+    margin: 200px;
+    margin-top: 50px;
+
+}
+
+
+main a{
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    color: orange;
+}
+
+h2{
+    text-align: center;
+    background-color: aqua;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+h3{
+    background-color:aqua;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.pra p{
+    background-color: aqua;
+    margin: 0px;
+    padding: 10px;
+    border: none;
+}
+
+.writebrotherspic, .ww1pic, .ww2pic,.b-52pic,.modernpic{
+    border: 2px solid rgb(64, 138, 122);
+
+}
+
+.writebrotherspic p, .ww1pic p, .ww2pic p,.b-52pic p, .modernpic p{
+    background-color: rgb(139, 79, 196);
+    text-align: center;
+
+}
+
+footer{
+    max-width: fit-content;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 195, 132);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+@media (max-width:600px) {
+
+
+    body{
+        margin: 0px;
+    }
+
+    div{
+        float: none;
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+        float: none;
+    }
+
+    
+    #homepage{
+
+        margin-bottom: 20px;
+    }
+
+}
