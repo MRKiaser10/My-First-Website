@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('/items/the first project/1.jpg');
+    background-image: url('1.jpg');
     filter: opacity(100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
